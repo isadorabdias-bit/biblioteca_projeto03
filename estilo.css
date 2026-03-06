@@ -1,0 +1,36 @@
+/* Estiliza o corpo da página */
+body{
+    font-family: Arial; /* fonte */
+    background:#f4f4f4; /* cor fundo */
+    text-align:center; /* centraliza */
+}
+
+/* Estiliza formulário */
+form{
+    background:white; /* fundo branco */
+    padding:20px; /* espaço interno */
+    width:300px; /* largura */
+    margin:20px auto; /* centraliza */
+    border-radius:10px; /* borda arredondada */
+}
+
+/* Inputs */
+input{
+    width:90%; /* largura */
+    padding:8px; /* espaço interno */
+    margin:5px; /* espaço externo */
+}
+
+/* Botão */
+button{
+    background:blue; /* cor */
+    color:white; /* texto branco */
+    padding:10px; /* espaço interno */
+    border:none; /* remove borda */
+    cursor:pointer; /* mãozinha */
+}
+
+/* Efeito ao passar mouse */
+button:hover{
+    background:darkblue;
+}
